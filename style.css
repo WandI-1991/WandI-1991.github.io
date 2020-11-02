@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.body {
+    font-family: 'Indie Flower' cursive;
+    overflow: hidden;
+}
+html {
+    scroll-behavior: smooth
+}
+
+.header {
+    height: 60px;
+    background-color:rgb(102, 151, 96);
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    display: flex;
+    opacity: 0.8;
+
+}
+.container-fluid{
+    height: 100%;
+
+}
+
+.logo-link{
+    color: white;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.header-menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly
+
+}
+.menu-link{
+    color:white;
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.section{
+    height: 100vh;
+    padding-top: 60px;
+    text-align: right;
+
+}
+#home {
+    background-image: url(home.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
+
+
+
+.home-title{
+    position: absolute;
+    right: 50%;
+    color: rgb(3, 78, 27);
+    font-family: 'Indie Flower', cursive;
+    font-size: 100px;
+}
+
+.button-title{
+    position: absolute;
+    right: 1%;
+    bottom: 5%;
+    animation: bounce-in-right 2s both;
+}
+#about {
+    background-image: url(wife.jpg);
+    background-size: auto;
+    background-attachment: fixed
+}
+
+#works{
+    background-image: url(sun.jpg);
+    background-size:cover;
+}
+
+#sendContact{
+    background-image: url(contact.jpg);
+    background-attachment: fixed
+}
+#wandi{
+  width: 600px;
+  max-height: 500px;
+  background-color: rgba(20, 88, 11, 0.253);
+  font-size: 30px;
+  color: rgb(242, 248, 241);
+  text-align: center;
+  margin-left: 850px;
+  margin-top: 600px;
+  border-radius: 30px;
+  font-family: 'Indie Flower', cursive;
+  transition:all 2s;
+ 
+}
+#wandi:hover{
+  background-color: rgba(11, 46, 6, 0.678);
+}
+#myWife{
+  width: 900px;
+  min-height: 500px;
+  background-color: rgba(20, 88, 11, 0.253);
+  font-size: 50px;
+  color: rgb(242, 248, 241);
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 200px;
+  border-radius: 80px;
+  font-family: 'Indie Flower', cursive;
+  transition:all 1s;
+  
+}
+#myWife:hover{
+  background-color: rgba(20, 88, 11, 0.678);
+}
+
+#mySun{
+  width: 900px;
+  max-height: 500px;
+  background-color: rgba(20, 88, 11, 0.452);
+  font-size: 50px;
+  color: rgb(242, 248, 241);
+  text-align: center;
+  margin-left: 900px;
+  margin-top: 200px;
+  border-radius: 80px;
+  font-family: 'Indie Flower', cursive;
+  transition:all 1s;
+}
+  #mySun:hover{
+    background-color: rgba(20, 88, 11, 0.678);
+  }
+    
+  #textContact{
+  width: 900px;
+  max-height: 500px;
+  background-color: rgba(20, 88, 11, 0.192);
+  font-size: 20px;
+  color: rgb(242, 248, 241);
+  text-align: center;
+  margin-left: 900px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: 'Indie Flower', cursive;
+  transition:all 1s;
+  }
+
+  #textContact:hover{
+    background-color: rgba(20, 88, 11, 0.911);
+  }
+
+  .form{
+    width: 300px;
+    height: 480px;
+    background-color: rgba(129, 151, 31, 0.61);
+    border-radius: 10px;
+    border-color: green;
+    margin-left: 1200px;
+    margin-top: 50px;
+    padding: 10px;
+    display: none;
+    animation: swing-in-top-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+  }
+  .form-group{
+    color: rgb(250, 249, 249);
+    text-align: left;
+  }
+
+  #show{
+    margin-right: 483px;
+    margin-top: 43px;
+    color: white;
+  }
+
+
+  #contact{
+    background-color: rgb(white);
+    height: 300px;
+    display: flex;
+    
+  }
+  #logo{
+    height: 300px;
+    width: 337px;
+    background-image: url(Logo.jpg);
+  }
+    
+  
+  
+  #face{
+    height: 100px;
+    width: 100px;
+    background-image: url(facebook.svg);
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+  #someText{
+    font-size: 40px;
+  }
+
+  /* 1475727166:AAFacz6ynnQSbTeAqqVA6AYFExJGCh5HbSA */ HTTP API
+/* __________________________ */
+
+ @keyframes bounce-in-right {
+  0% {
+    transform: translateX(600px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateX(68px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateX(32px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateX(8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+}
+
+ @keyframes swing-in-top-fwd {
+  0% {
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
